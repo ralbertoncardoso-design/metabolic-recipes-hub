@@ -30,7 +30,7 @@ const Offer = () => {
             onClick={scrollToCheckout}
             variant="fire"
             size="lg"
-            className="text-xl px-10 py-6 h-auto rounded-xl w-full md:w-auto"
+            className="text-base md:text-xl px-6 md:px-10 py-4 md:py-6 h-auto rounded-xl w-full max-w-md mx-auto md:w-auto"
           >
             Quero garantir meu ebook agora!
           </Button>

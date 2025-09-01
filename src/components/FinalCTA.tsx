@@ -22,7 +22,7 @@ const FinalCTA = () => {
           onClick={scrollToCheckout}
           variant="secondary"
           size="lg"
-          className="text-xl px-12 py-6 h-auto rounded-xl font-bold hover:scale-105 transition-all duration-300"
+          className="text-base md:text-xl px-6 md:px-12 py-4 md:py-6 h-auto rounded-xl font-bold hover:scale-105 transition-all duration-300 w-full max-w-md mx-auto md:w-auto"
         >
           Quero minha barriga mais sequinha agora!
         </Button>
