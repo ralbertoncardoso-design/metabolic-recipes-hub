@@ -10,7 +10,15 @@
     <!-- Performance optimizations -->
     <link rel="dns-prefetch" href="//pay.cakto.com.br" />
     <link rel="preconnect" href="https://pay.cakto.com.br" crossorigin />
+    
+    <!-- Critical resource preloading -->
+    <link rel="preload" href="/src/index.css" as="style" />
+    <link rel="preload" href="/src/main.tsx" as="script" crossorigin />
     <link rel="modulepreload" href="/src/main.tsx" />
+    
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <meta property="og:title" content="Receitas Termogênicas - Acelere Seu Metabolismo e Seque a Barriga" />
     <meta property="og:description" content="Descubra receitas termogênicas que aceleram o metabolismo e ajudam a secar a barriga naturalmente. Guia prático com receitas deliciosas e acessíveis." />
