@@ -13,7 +13,9 @@ const Hero = () => {
           <img 
             src="/lovable-uploads/f49b4e37-d96e-42de-8de0-643b6695a151.png" 
             alt="Capa do Ebook Receitas FIT" 
-            className="mx-auto w-64 md:w-80 rounded-lg shadow-warm hover:shadow-glow transition-all duration-300 hover:scale-105"
+            width="320"
+            height="400"
+            className="mx-auto w-64 md:w-80 rounded-lg shadow-warm hover:shadow-glow transition-shadow duration-300"
           />
         </div>
         
