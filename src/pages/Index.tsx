@@ -14,11 +14,25 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Hero />
+      
+      {/* Load first section immediately */}
       <Suspense fallback={<div className="h-16" />}>
         <EmotionalConnection />
+      </Suspense>
+      
+      {/* Load product info when needed */}
+      <Suspense fallback={<div className="h-16" />}>
         <ProductDescription />
+      </Suspense>
+      
+      {/* Load bonuses and offer together */}
+      <Suspense fallback={<div className="h-16" />}>
         <Bonuses />
         <Offer />
+      </Suspense>
+      
+      {/* Load final sections */}
+      <Suspense fallback={<div className="h-16" />}>
         <Guarantee />
         <FAQ />
         <FinalCTA />
