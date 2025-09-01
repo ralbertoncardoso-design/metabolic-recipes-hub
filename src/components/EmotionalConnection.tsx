@@ -19,17 +19,17 @@ const EmotionalConnection = () => {
         </Card>
         
         <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
-          <Card className="p-6 text-center hover:shadow-warm transition-shadow duration-300 transform-gpu will-change-auto">
+          <Card className="p-6 text-center hover:shadow-warm transition-shadow duration-300 will-change-transform">
             <div className="text-3xl mb-3">💪</div>
             <p className="font-semibold text-foreground">Acordar com mais disposição</p>
           </Card>
           
-          <Card className="p-6 text-center hover:shadow-warm transition-shadow duration-300 transform-gpu will-change-auto">
+          <Card className="p-6 text-center hover:shadow-warm transition-shadow duration-300 will-change-transform">
             <div className="text-3xl mb-3">👗</div>
             <p className="font-semibold text-foreground">Sentir suas roupas ficando mais folgadas</p>
           </Card>
           
-          <Card className="p-6 text-center hover:shadow-warm transition-shadow duration-300 transform-gpu will-change-auto">
+          <Card className="p-6 text-center hover:shadow-warm transition-shadow duration-300 will-change-transform">
             <div className="text-3xl mb-3">✨</div>
             <p className="font-semibold text-foreground">Olhar no espelho e ver a diferença na sua barriga</p>
           </Card>

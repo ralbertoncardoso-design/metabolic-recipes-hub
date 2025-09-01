@@ -9,19 +9,19 @@ const Bonuses = () => {
         </h3>
         
         <div className="grid md:grid-cols-3 gap-6 mb-8">
-          <Card className="p-6 text-center hover:shadow-warm transition-all duration-300 hover:-translate-y-1">
+          <Card className="p-6 text-center hover:shadow-warm transition-all duration-300 hover:-translate-y-1 will-change-transform">
             <div className="text-4xl mb-4">📋</div>
             <h4 className="font-bold text-lg mb-2 text-primary">Bônus #1</h4>
             <p className="text-sm text-muted-foreground">Checklist Barriga Chapada em Casa</p>
           </Card>
           
-          <Card className="p-6 text-center hover:shadow-warm transition-all duration-300 hover:-translate-y-1">
+          <Card className="p-6 text-center hover:shadow-warm transition-all duration-300 hover:-translate-y-1 will-change-transform">
             <div className="text-4xl mb-4">🫖</div>
             <h4 className="font-bold text-lg mb-2 text-primary">Bônus #2</h4>
             <p className="text-sm text-muted-foreground">Guia de Chás Caseiros para Acelerar o Metabolismo</p>
           </Card>
           
-          <Card className="p-6 text-center hover:shadow-warm transition-all duration-300 hover:-translate-y-1">
+          <Card className="p-6 text-center hover:shadow-warm transition-all duration-300 hover:-translate-y-1 will-change-transform">
             <div className="text-4xl mb-4">🥤</div>
             <h4 className="font-bold text-lg mb-2 text-primary">Bônus #3</h4>
             <p className="text-sm text-muted-foreground">Guia Definitivo para Acelerar Seu Metabolismo Bebendo</p>

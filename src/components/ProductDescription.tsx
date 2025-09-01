@@ -10,7 +10,7 @@ const ProductDescription = () => {
         </h3>
         
         <div className="grid md:grid-cols-2 gap-8">
-          <Card className="p-8 hover:shadow-warm transition-all duration-300">
+          <Card className="p-8 hover:shadow-warm transition-shadow duration-300 will-change-transform">
             <h4 className="font-bold text-xl mb-4 text-primary flex items-center gap-2">
               ✅ Benefícios
             </h4>
@@ -42,7 +42,7 @@ const ProductDescription = () => {
             </p>
           </Card>
           
-          <Card className="p-8 hover:shadow-warm transition-all duration-300">
+          <Card className="p-8 hover:shadow-warm transition-shadow duration-300 will-change-transform">
             <h4 className="font-bold text-xl mb-4 text-primary flex items-center gap-2">
               📖 O que tem no ebook?
             </h4>
