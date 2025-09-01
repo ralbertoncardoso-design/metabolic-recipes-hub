@@ -2,8 +2,12 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   const scrollToCheckout = () => {
-    const element = document.getElementById('checkout');
-    element?.scrollIntoView({ behavior: 'smooth' });
+    requestAnimationFrame(() => {
+      const element = document.getElementById('checkout');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
   };
 
   return (
