@@ -32,14 +32,20 @@ const Hero = () => {
           aumentam a energia e ajudam você a conquistar a barriga dos seus sonhos.
         </p>
         
-        <Button 
-          onClick={scrollToCheckout}
-          variant="fire"
-          size="lg"
-          className="text-base md:text-lg px-6 md:px-8 py-4 md:py-6 h-auto rounded-xl w-full max-w-md mx-auto md:w-auto"
+        <a 
+          href="https://pay.cakto.com.br/zzmojm5"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block"
         >
-          Quero minha barriga mais sequinha agora!
-        </Button>
+          <Button 
+            variant="fire"
+            size="lg"
+            className="text-sm md:text-base lg:text-lg px-4 md:px-6 lg:px-8 py-3 md:py-4 lg:py-6 h-auto rounded-xl w-full max-w-sm mx-auto md:max-w-md lg:w-auto whitespace-normal leading-relaxed"
+          >
+            Quero minha barriga mais sequinha agora!
+          </Button>
+        </a>
       </div>
     </section>
   );

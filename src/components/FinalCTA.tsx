@@ -18,14 +18,20 @@ const FinalCTA = () => {
           Transforme seu metabolismo e conquiste a barriga dos seus sonhos!
         </p>
         
-        <Button 
-          onClick={scrollToCheckout}
-          variant="secondary"
-          size="lg"
-          className="text-base md:text-xl px-6 md:px-12 py-4 md:py-6 h-auto rounded-xl font-bold hover:scale-105 transition-all duration-300 w-full max-w-md mx-auto md:w-auto"
+        <a 
+          href="https://pay.cakto.com.br/zzmojm5"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block"
         >
-          Quero minha barriga mais sequinha agora!
-        </Button>
+          <Button 
+            variant="secondary"
+            size="lg"
+            className="text-sm md:text-base lg:text-xl px-4 md:px-6 lg:px-12 py-3 md:py-4 lg:py-6 h-auto rounded-xl font-bold hover:scale-105 transition-all duration-300 w-full max-w-sm mx-auto md:max-w-md lg:w-auto whitespace-normal leading-relaxed"
+          >
+            Quero minha barriga mais sequinha agora!
+          </Button>
+        </a>
         
         <p className="text-white/80 mt-6 text-sm">
           ⏰ Oferta por tempo limitado • 🔒 Pagamento seguro • ✅ Garantia 7 dias

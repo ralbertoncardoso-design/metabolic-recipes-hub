@@ -25,15 +25,21 @@ const Offer = () => {
             ⏰ Oferta válida somente por tempo limitado!
           </p>
           
-          <Button 
-            id="checkout"
-            onClick={scrollToCheckout}
-            variant="fire"
-            size="lg"
-            className="text-base md:text-xl px-6 md:px-10 py-4 md:py-6 h-auto rounded-xl w-full max-w-md mx-auto md:w-auto"
+          <a 
+            href="https://pay.cakto.com.br/zzmojm5"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block w-full max-w-sm mx-auto md:max-w-md lg:w-auto"
           >
-            Quero garantir meu ebook agora!
-          </Button>
+            <Button 
+              id="checkout"
+              variant="fire"
+              size="lg"
+              className="text-sm md:text-base lg:text-xl px-4 md:px-6 lg:px-10 py-3 md:py-4 lg:py-6 h-auto rounded-xl w-full whitespace-normal leading-relaxed"
+            >
+              Quero garantir meu ebook agora!
+            </Button>
+          </a>
         </Card>
         
         <div className="flex justify-center items-center gap-4 text-sm text-muted-foreground">
