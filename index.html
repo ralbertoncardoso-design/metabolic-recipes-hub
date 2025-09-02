@@ -1,108 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ebook Receitas Fit</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background: #4CAF50;
-      color: #fff;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    header p {
-      margin-top: 0.5rem;
-      font-size: 1.2rem;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 2rem 1rem;
-    }
-    .price {
-      font-size: 1.5rem;
-      margin: 1rem 0;
-    }
-    .old-price {
-      text-decoration: line-through;
-      color: #888;
-      margin-right: 10px;
-    }
-    .btn {
-      display: inline-block;
-      background: #ff5722;
-      color: #fff;
-      padding: 1rem 2rem;
-      border-radius: 8px;
-      text-decoration: none;
-      font-size: 1.2rem;
-      transition: background 0.3s ease;
-    }
-    .btn:hover {
-      background: #e64a19;
-    }
-    section {
-      margin: 2rem 0;
-    }
-    footer {
-      background: #333;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Transforme sua alimentação com receitas simples e saborosas!</h1>
-    <p>Descubra como emagrecer sem dietas restritivas e ainda ter mais energia no dia a dia.</p>
-  </header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receitas Termogênicas - Acelere Seu Metabolismo e Seque a Barriga</title>
+    <meta name="description" content="Descubra receitas termogênicas que aceleram o metabolismo e ajudam a secar a barriga naturalmente. Guia prático com receitas deliciosas e acessíveis." />
+    <meta name="author" content="Receitas Termogênicas" />
+    
+    <!-- Performance optimizations -->
+    <link rel="dns-prefetch" href="//pay.cakto.com.br" />
+    <link rel="preconnect" href="https://pay.cakto.com.br" crossorigin />
+    
+    <!-- Critical resource preloading -->
+    <link rel="preload" href="/src/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="/src/index.css"></noscript>
+    <link rel="preload" href="/src/main.tsx" as="script" crossorigin />
+    <link rel="modulepreload" href="/src/main.tsx" />
+    
+    <!-- Inline critical CSS to prevent FOUC -->
+    <style>
+      body { margin: 0; background: hsl(var(--background, 0 0% 100%)); color: hsl(var(--foreground, 222.2 84% 4.9%)); }
+      .min-h-screen { min-height: 100vh; }
+    </style>
+    
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-  <div class="container">
-    <section>
-      <h2>O que você vai encontrar no Ebook?</h2>
-      <ul>
-        <li>Receitas fáceis e práticas para o dia a dia</li>
-        <li>Opções saudáveis para emagrecer sem sofrimento</li>
-        <li>Dicas de substituições inteligentes</li>
-        <li>Mais energia e disposição para sua rotina</li>
-      </ul>
-    </section>
+    <meta property="og:title" content="Receitas Termogênicas - Acelere Seu Metabolismo e Seque a Barriga" />
+    <meta property="og:description" content="Descubra receitas termogênicas que aceleram o metabolismo e ajudam a secar a barriga naturalmente. Guia prático com receitas deliciosas e acessíveis." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-    <section>
-      <h2>Oferta Especial</h2>
-      <p class="price">
-        <span class="old-price">R$97,00</span> 
-        <strong>R$47,00</strong>
-      </p>
-      <a href="https://seulinkdecheckout.com" class="btn">Quero meu Ebook!</a>
-    </section>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
 
-    <section>
-      <h2>Bônus Exclusivos</h2>
-      <ul>
-        <li>Receitas termogênicas para secar a barriga</li>
-        <li>Guia de chás naturais para acelerar o metabolismo</li>
-        <li>Dicas de lanches rápidos e saudáveis</li>
-      </ul>
-    </section>
-  </div>
-
-  <footer>
-    <p>© 2025 - Ebook Receitas Fit. Todos os direitos reservados.</p>
-  </footer>
-</body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
