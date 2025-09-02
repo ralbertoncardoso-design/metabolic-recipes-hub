@@ -12,9 +12,16 @@
     <link rel="preconnect" href="https://pay.cakto.com.br" crossorigin />
     
     <!-- Critical resource preloading -->
-    <link rel="preload" href="/src/index.css" as="style" />
+    <link rel="preload" href="/src/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="/src/index.css"></noscript>
     <link rel="preload" href="/src/main.tsx" as="script" crossorigin />
     <link rel="modulepreload" href="/src/main.tsx" />
+    
+    <!-- Inline critical CSS to prevent FOUC -->
+    <style>
+      body { margin: 0; background: hsl(var(--background, 0 0% 100%)); color: hsl(var(--foreground, 222.2 84% 4.9%)); }
+      .min-h-screen { min-height: 100vh; }
+    </style>
     
     <!-- Preload critical fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
