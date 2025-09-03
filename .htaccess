@@ -1,0 +1,13 @@
+AddType text/javascript .js
+AddType text/javascript .mjs
+AddType application/javascript .js
+AddType application/javascript .mjs
+
+# Também adicione essas linhas para garantir
+<Files "*.js">
+    ForceType text/javascript
+</Files>
+
+<Files "*.mjs">
+    ForceType text/javascript
+</Files>
