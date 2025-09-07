@@ -113,7 +113,24 @@ All colors MUST be HSL.
   }
 }
 
-a[href*="lovable.dev"], iframe[src*="lovable.dev"], div[style*="Edit with Lovable"], .lovable-badge {
+/* Remove links e iframes que apontem para o domínio lovable */
+a[href*="lovable.dev"],
+iframe[src*="lovable.dev"],
+a[href*="lovable.so"],
+iframe[src*="lovable.so"] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Remove badge ou container de marca d’água */
+.lovable-badge,
+div[class*="lovable"],
+div[id*="lovable"],
+section[class*="lovable"],
+footer[class*="lovable"],
+div[style*="Edit with Lovable"] {
   display: none !important;
   opacity: 0 !important;
   visibility: hidden !important;
@@ -121,3 +138,4 @@ a[href*="lovable.dev"], iframe[src*="lovable.dev"], div[style*="Edit with Lovabl
   position: absolute !important;
   z-index: -9999 !important;
 }
+
